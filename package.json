@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "components": "^0.1.0",
     "flowbite-react": "^0.7.2",
+    "gh-pages": "^6.1.1",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-datepicker": "^4.25.0",
@@ -32,8 +33,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-page -d build"
-
-
   },
   "eslintConfig": {
     "extends": [

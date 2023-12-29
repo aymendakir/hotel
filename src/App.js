@@ -1,5 +1,4 @@
 import './App.css';
-import Cart from './components/Cart';
 import React,{Fragment} from "react";
 import Navbar from './components/Navbar';
 
