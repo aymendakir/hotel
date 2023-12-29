@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hotel/static/css/main.a98b0a03.css",
+    "main.js": "/hotel/static/js/main.70c45723.js",
+    "static/js/787.a2acccb1.chunk.js": "/hotel/static/js/787.a2acccb1.chunk.js",
+    "static/media/icone-marketing-magasin-ligne_24877-13843.jpg": "/hotel/static/media/icone-marketing-magasin-ligne_24877-13843.6b9428a090d67346c4ba.jpg",
+    "index.html": "/hotel/index.html",
+    "main.a98b0a03.css.map": "/hotel/static/css/main.a98b0a03.css.map",
+    "main.70c45723.js.map": "/hotel/static/js/main.70c45723.js.map",
+    "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a98b0a03.css",
+    "static/js/main.70c45723.js"
+  ]
+}
