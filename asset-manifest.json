@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hotel/static/css/main.e75763a7.css",
+    "main.js": "/hotel/static/js/main.5c62da17.js",
+    "static/js/787.a2acccb1.chunk.js": "/hotel/static/js/787.a2acccb1.chunk.js",
+    "static/media/product-04.jpg": "/hotel/static/media/product-04.44e7a43706ee08a877d5.jpg",
+    "static/media/icone-marketing-magasin-ligne_24877-13843.jpg": "/hotel/static/media/icone-marketing-magasin-ligne_24877-13843.6b9428a090d67346c4ba.jpg",
+    "index.html": "/hotel/index.html",
+    "main.e75763a7.css.map": "/hotel/static/css/main.e75763a7.css.map",
+    "main.5c62da17.js.map": "/hotel/static/js/main.5c62da17.js.map",
+    "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e75763a7.css",
+    "static/js/main.5c62da17.js"
+  ]
+}
