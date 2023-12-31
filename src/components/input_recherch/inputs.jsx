@@ -81,7 +81,7 @@ export default function Inputs(){
 
 
     return (
-        <div className=" md:flex-col flex justify-around font_home   rounded-md w-[80%] mx-auto p-7 bg-gradient-to-r from-[#7F32CD] to-amber-700 shadow-md shadow-black -mt-16  ">
+        <div className=" md:flex-col flex justify-around font_home   rounded-lg  w-[80%] mx-auto p-7 bg-gradient-to-r from-[#7F32CD] to-amber-700 shadow-md shadow-black -mt-16 md:-mt-32  ">
             <div>
         <Datepicker
 inputId="id"
@@ -166,7 +166,7 @@ onChange={handleValueChange}
 
 
             </div>
-            <Button className="text-amber-50 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-5  ">Search</Button>
+            <Button className="text-amber-50 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-5   ">Search</Button>
         </div>
     );
 
