@@ -51,7 +51,8 @@
   font-family: "Nunito", sans-serif;
 }
 .logo_color {
-  background: -webkit-linear-gradient(#7f32cd, #e61e43);
+  background: -webkit-linear-gradient( royalblue, #F2007D );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

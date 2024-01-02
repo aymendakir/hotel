@@ -6,6 +6,7 @@ import Inputs from "./input_recherch/inputs";
 import Header from "./Header";
 import Homechambre from "./Homechambre";
 import App from "../App";
+import Clientsaye from "./Clientsaye";
 
 export default function Home(){
     return(
@@ -14,7 +15,7 @@ export default function Home(){
             <Header />
             <Inputs />
             <Homechambre />
-
+            <Clientsaye />
         </>
 
     )

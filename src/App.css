@@ -56,7 +56,7 @@ box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
 .logo_color{
-  background: -webkit-linear-gradient(#7F32CD, #E61E43 );
+  background: -webkit-linear-gradient( royalblue, #F2007D );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -16,6 +16,18 @@ const applicants = [ {
         id:1,
     },
     {
+        title: 'bit mouad zaml', stars: '4',
+        beds: '2', baths: '2',
+        prix: '150', img: require('../components/img/chambre2.jpg'),
+        id:1,
+    },
+    {
+        title: 'bit lma', stars: '4',
+        beds: '2', baths: '2',
+        prix: '150', img: require('../components/img/chambre2.jpg'),
+        id:1,
+    },
+    {
         title: 'lbit dial mzalit', stars: '3.5',
         beds: '1', baths: '1',
         prix: '70', img: require('../components/img/chambre1.jpg'),
@@ -34,18 +46,18 @@ function Homechambre() {
 
 
     return (
-        <div className="flex flex-col mt-16 font_home h-[90vh]">
+        <div className="flex flex-col mt-16 font_home ">
             <h1 className="text-center mb-9 capitalize font-black text-2xl">popular chambre</h1>
             <div>
 
-                <div   className="w-[80%] md:grid-cols-1  md:space-x-0  grid grid-cols-3 lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
+                <div   className="w-[80%] md:grid-cols-1  md:space-x-0  grid grid-cols-3   lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
                     {applicants.map(function(applicant)  {
                         return (
-                            <div key={applicant.id} className=" md:ml-auto  ml-12  shadow-sm shadow-gray-500 rounded-b-xl mt-7 ">
+                            <div key={applicant.id} className=" md:ml-auto  ml-12 border-0  shadow-sm shadow-gray-500 rounded-xl mt-7 ">
 
                                 <img className="w-full rounded-t-md" src={applicant.img}/>
 
-                                <div className="p-2 border border-gray-100 ">
+                                <div className="p-2 border border-gray-100 rounded-md ">
 
                                     <div className="flex justify-between mt-3 font-medium text-lg">
                                         <h3 /******title*********/>{applicant.title} </h3>
@@ -85,7 +97,7 @@ function Homechambre() {
             </div>
         </div>
     );
-};
 
 
+}
 export default Homechambre;
