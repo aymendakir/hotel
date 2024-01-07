@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/hotel/static/css/main.c7260c04.css",
-    "main.js": "/hotel/static/js/main.1658261e.js",
+    "main.css": "/hotel/static/css/main.4b0e4314.css",
+    "main.js": "/hotel/static/js/main.2a227c7e.js",
     "static/js/879.60b38b64.chunk.js": "/hotel/static/js/879.60b38b64.chunk.js",
+    "static/js/23.8f97e675.chunk.js": "/hotel/static/js/23.8f97e675.chunk.js",
+    "static/js/81.82d1df10.chunk.js": "/hotel/static/js/81.82d1df10.chunk.js",
     "static/js/787.a2acccb1.chunk.js": "/hotel/static/js/787.a2acccb1.chunk.js",
     "static/media/chambre1.jpg": "/hotel/static/media/chambre1.1151d44f74a59a34883d.jpg",
     "static/media/chambre3.jpg": "/hotel/static/media/chambre3.0ae972b6782e7f3d9551.jpg",
     "static/media/chambre2.jpg": "/hotel/static/media/chambre2.56da63fa76cf9ea9647f.jpg",
+    "static/media/emggetemail.png": "/hotel/static/media/emggetemail.a2a85a0054b787e68079.png",
     "static/media/product-04.jpg": "/hotel/static/media/product-04.44e7a43706ee08a877d5.jpg",
-    "static/media/product-02.jpg": "/hotel/static/media/product-02.e3e77b9d1ea87cee9f92.jpg",
-    "static/media/profilephoto.jpg": "/hotel/static/media/profilephoto.e973e4f254d0530a2936.jpg",
     "static/media/icone-marketing-magasin-ligne_24877-13843.jpg": "/hotel/static/media/icone-marketing-magasin-ligne_24877-13843.6b9428a090d67346c4ba.jpg",
+    "static/media/profile5.jpg": "/hotel/static/media/profile5.120975d9e4a50843436d.jpg",
+    "static/media/profile4.jpg": "/hotel/static/media/profile4.b6955e6b3f44f059b5b4.jpg",
+    "static/media/profile2.jpg": "/hotel/static/media/profile2.73d0c0196c737b8d1d47.jpg",
+    "static/media/profile3.jpg": "/hotel/static/media/profile3.44b7726813f71723c53b.jpg",
+    "static/media/parking.png": "/hotel/static/media/parking.cb18612d41717d533cb0.png",
     "index.html": "/hotel/index.html",
-    "main.c7260c04.css.map": "/hotel/static/css/main.c7260c04.css.map",
-    "main.1658261e.js.map": "/hotel/static/js/main.1658261e.js.map",
+    "main.4b0e4314.css.map": "/hotel/static/css/main.4b0e4314.css.map",
+    "main.2a227c7e.js.map": "/hotel/static/js/main.2a227c7e.js.map",
     "879.60b38b64.chunk.js.map": "/hotel/static/js/879.60b38b64.chunk.js.map",
+    "23.8f97e675.chunk.js.map": "/hotel/static/js/23.8f97e675.chunk.js.map",
+    "81.82d1df10.chunk.js.map": "/hotel/static/js/81.82d1df10.chunk.js.map",
     "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7260c04.css",
-    "static/js/main.1658261e.js"
+    "static/css/main.4b0e4314.css",
+    "static/js/main.2a227c7e.js"
   ]
 }
