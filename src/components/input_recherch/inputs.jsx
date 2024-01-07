@@ -81,7 +81,7 @@ export default function Inputs(){
 
 
     return (
-        <div className=" md:flex-col flex justify-around font_home   rounded-lg  w-[80%] mx-auto p-7 bg-gradient-to-br from-blue-300  to-blue-600 shadow-sm shadow-black -mt-16 md:-mt-32  ">
+        <div className=" md:flex-col flex justify-around font_home   rounded-lg  w-[80%] mx-auto p-7  bg-gradient-to-r from-[#7F32CD] to-amber-700 shadow-sm shadow-black -mt-16 md:-mt-32  ">
             <div>
         <Datepicker
 inputId="id"

@@ -24,9 +24,7 @@ export default function Navbar() {
             <li className=" capitalize text-blue-600 font-medium text-xl mr-2">
               <Link  to="/">hotels & homes</Link>
             </li>
-            <p className="uppercase cursor-pointer text-blue-600 text-xl">
-              usd
-            </p>
+
             <li  className="  color_bleu font-medium px-1 py-1.5  rounded-md bg-bg hover:text-amber-50 cursor-pointer text-lg ">
               Sign in
             </li>
@@ -78,7 +76,6 @@ export default function Navbar() {
                         <Link to="" className="font-medium border-2 borde_color my-8 px-24 py-1.5 rounded-lg bg-bg">Sign in</Link>
                         <Link to="" className="font-medium border-2 borde_color mb-8 px-24 py-1.5 rounded-lg text-white bg-bgr">Creat account</Link>
                         <span className="uppercase text-start py-1.5 bg-gray-300 w-full font-semibold pl-1.5">settings</span>
-                        <span className="font-medium text-2xl mt-8 uppercase text-blue-600 text-start ml-5 cursor-pointer">usd</span>
 
                       </div>
                     </div>)}

@@ -47,10 +47,10 @@ function Homechambre() {
 
     return (
         <div className="flex flex-col mt-16 font_home ">
-            <h1 className="text-center mb-9 capitalize font-black text-2xl">popular chambre</h1>
+            <h1 className="text-center mb-5 capitalize font-semibold text-4xl">popular chambre</h1>
             <div>
 
-                <div   className="w-[80%] md:grid-cols-1  md:space-x-0  grid grid-cols-3   lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
+                <div   className="w-[90%] md:grid-cols-1  md:space-x-0  grid grid-cols-3   lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
                     {applicants.map(function(applicant)  {
                         return (
                             <div key={applicant.id} className=" md:ml-auto  ml-12 border-0  shadow-sm shadow-gray-500 rounded-xl mt-7 ">
