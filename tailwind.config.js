@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": " url('/./src/components/img/product-04.jpg')",
+        "hero-pattern": " url('/./src/components/img/product-03.jpg')",
 
       },
     },

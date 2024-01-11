@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(https://db.onlinewebfonts.com/c/d1e13e0fce9a97c8b5d63fb1adb62fca?family=Mallory+MP+Bold+Regular);
 * {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -84,4 +85,6 @@
     text-align: -webkit-right;
   }
 }
-
+.font-face {
+  font-family: 'Rubik', sans-serif;
+}

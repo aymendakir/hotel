@@ -16,29 +16,33 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center mt-5 mx-5 pb-5">
+      <nav className="w-[80%] flex justify-between items-center mt-5  pb-5 mx-auto">
         <Logo />
         <div className="flex space-x-10 md:space-x-14 items-center">
 
-          <ul className="  md:hidden flex space-x-10 items-center  font_home  ">
-            <li className=" capitalize text-blue-600 font-medium text-xl mr-2">
-              <Link  to="/">hotels & homes</Link>
-            </li>
+            <ul className="  md:hidden flex space-x-12 items-center  font_home  ">
+                <li className=" capitalize text-black hover:text-gray-600 font-medium text-xl mr-2 relative after:absolute after:top-1 after:-right-7  after:w-[1.5px] after:rounded-full after:opacity-45 after:h-5 after:bg-gray-500">
+                    <Link to="/">home</Link>
+                </li>
 
-            <li  className="  color_bleu font-medium px-1 py-1.5  rounded-md bg-bg hover:text-amber-50 cursor-pointer text-lg ">
-              Sign in
-            </li>
-            <li className="  capitalize px-1 py-2  color_bleu font-semibold border-2 borde_color rounded-md bg-bg hover:text-amber-50 cursor-pointer">
-              creat account
-            </li>
-          </ul>
-          <ul className="md:space-x-3  flex space-x-7 items-center -ml-14"
->
-            <li className="text-3xl cursor-pointer">
-              <Link  to="/Cart">
-                <AiOutlineShoppingCart />
-              </Link>
-            </li>
+                <li className=" capitalize text-black hover:text-gray-600 font-medium text-xl mr-2 relative after:absolute after:top-1 after:-right-7  after:w-0.5 after:rounded-full after:opacity-45 after:h-5 after:bg-gray-500">
+                    <Link to="#">shop</Link>
+                </li>
+
+                <li className="  text-blue-400 font-medium px-3 py-1.5  rounded-md hover:bg-blue-300 hover:text-amber-50 cursor-pointer text-lg ">
+                    Sign in
+                </li>
+                <li className="  capitalize px-3 py-2  text-blue-400 font-semibold border-2 border-blue-400 rounded-md hover:bg-blue-300 hover:text-black cursor-pointer">
+                    creat account
+                </li>
+            </ul>
+            <ul className="md:space-x-3  flex space-x-7 items-center -ml-14"
+            >
+                <li className="text-3xl cursor-pointer">
+                    <Link to="/Cart">
+                        <AiOutlineShoppingCart/>
+                    </Link>
+                </li>
             <li className="text-3xl cursor-pointer"  onClick={e => {
               if (window.innerWidth <= 980){
                 setIsactiv(!isactiv)

@@ -1,7 +1,5 @@
-
-
 import Navbar from "./Navbar";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Inputs from "./input_recherch/inputs";
 import Header from "./Header";
 import Homechambre from "./Homechambre";
@@ -10,22 +8,22 @@ import Emailform from "./Emailform";
 import Service from "./Facilites_service";
 import Index from "../App";
 import Fotter from "./fotter";
+import Navinpu from "./input_recherch/iput_nav";
 
+export default function Home() {
+  return (
+    <>
+      <Navbar />
 
-export default function Home(){
-    return(
-        <>
-            <Navbar/>
-            <Header />
-            <Inputs />
-            <Homechambre />
-            <Service />
-            <Clientsaye />
-            <Emailform />
-<Fotter />
+      <Navinpu />
 
+      <Header />
+      <Inputs />
+      <Homechambre />
 
-        </>
-
-    )
+      <Clientsaye />
+      <Emailform />
+      <Fotter />
+    </>
+  );
 }

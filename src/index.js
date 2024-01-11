@@ -5,11 +5,16 @@ import reportWebVitals from "./reportWebVitals";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+import Afchamber from "./components/Chamber_datea_aficher";
 
 const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/Afchamber",
+    element: <Afchamber />,
   },
   {
     path: "/Cart",

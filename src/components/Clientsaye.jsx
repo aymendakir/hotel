@@ -2,27 +2,28 @@ import ScrollCarousel from "scroll-carousel-react";
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
 import { Button } from "@material-tailwind/react";
 import React from "react";
+import {retry} from "next/dist/compiled/@next/font/dist/google/retry";
 
 const applicants = [
+
   {
-    title: "waw is incroyable hotrl the best in maroc",
-    img: require("./img/profile2.jpg"),
+    text: "waw is incroyable hotrl the best in maroc",
+    from:"Michael from Australia",
+    chamber:"chamber family",
+
     id: 0,
   },
   {
-    title: "waw is incroyable hotrl the best in maroc",
-    img: require("./img/profile3.jpg"),
+    text: "waw is incroyable hotrl the best in maroc",
+    from:"Michael from Australia",
+    chamber:"chamber family",
     id: 1,
   },
   {
-    title: "waw is incroyable hotrl the best in maroc",
-    img: require("./img/profile4.jpg"),
+    text: "\"We booked Hotel Eucalyptus through Agoda after reading a handful of reviews, and it was easily the best decision we made for our trip to Santorini.\"",
+    from:"Michael from Australia",
+    chamber:"chamber family",
     id: 2,
-  },
-  {
-    title: "waw is incroyable hotrl the best in maroc",
-    img: require("./img/profile5.jpg"),
-    id: 3,
   },
 ];
 export default function Clientsaye() {
@@ -33,31 +34,25 @@ export default function Clientsaye() {
 
           what our clients say
         </h1>
+        <div className="flex w-[90%] justify-center mx-auto space-x-20">
+        {applicants.map((applicant)=> {
+          return(
 
-        <ScrollCarousel
-          autoplay
-          speed={1}
-          margin={300}
-
-        >
-          {applicants.map((applicant) => (
-            <div
+          <article
               key={applicant.id}
-              className="   p-10 my-5 w-[350px] h-[320px] rounded-2xl bg-white shadow-md shadow-gray-500 border-2 border-t-gray-200  "
-            >
-              <img
-                className=" mx-auto w-[100px] h-[100px] rounded-full shadow-gray-500 shadow-sm"
-                src={applicant.img}
-              />
+              className=" flex flex-col items-center justify-center h-[350px] w-[350px] bg-white border-2 border-gray-100 shadow-gray-200 shadow-lg relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-1 before:bg-blue-700 ">
+            <p className="text-xl text-blue-400 font-medium capitalize text-center absolute top-5 font-face italic ">
+              {applicant.chamber}
+            </p>
+            <p className="w-[80%] text-center mt-4 font-bold break-words">{applicant.text}</p>
+            <h3 className="mt-8 font-bold text-lg absolute bottom-5">- {applicant.from}</h3>
 
-              <div className="p-2  mt-9 max-w-[70%] mx-auto ">
-                <p className="text-black text-center  break-all text-lg ">
-                  {applicant.title}
-                </p>
-              </div>
-            </div>
-          ))}
-        </ScrollCarousel>
+          </article>)
+
+
+        })}
+
+        </div>
       </div>
     </div>
   );

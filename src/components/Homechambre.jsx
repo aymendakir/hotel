@@ -19,25 +19,25 @@ const applicants = [ {
         title: 'bit mouad zaml', stars: '4',
         beds: '2', baths: '2',
         prix: '150', img: require('../components/img/chambre2.jpg'),
-        id:1,
+        id:2,
     },
     {
         title: 'bit lma', stars: '4',
         beds: '2', baths: '2',
         prix: '150', img: require('../components/img/chambre2.jpg'),
-        id:1,
+        id:3,
     },
     {
         title: 'lbit dial mzalit', stars: '3.5',
         beds: '1', baths: '1',
         prix: '70', img: require('../components/img/chambre1.jpg'),
-        id:2,
+        id:4,
     },
     {
         title: 'bit dial 9hab', stars: '5',
         beds: '1', baths: '1',
         prix: '50', img: require('../components/img/chambre3.jpg'),
-        id:3,
+        id:5,
     },
 
 ];
@@ -46,11 +46,11 @@ function Homechambre() {
 
 
     return (
-        <div className="flex flex-col mt-16 font_home ">
+        <div className="flex flex-col mt-10 font_home ">
             <h1 className="text-center mb-5 capitalize font-semibold text-4xl">popular chambre</h1>
             <div>
 
-                <div   className="w-[90%] md:grid-cols-1  md:space-x-0  grid grid-cols-3   lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
+                <div   className="w-[85%] md:grid-cols-1  md:space-x-0  grid grid-cols-3   lg:grid-rows-2 space-x-12 mt-7   mx-auto ">
                     {applicants.map(function(applicant)  {
                         return (
                             <div key={applicant.id} className=" md:ml-auto  ml-12 border-0  shadow-sm shadow-gray-500 rounded-xl mt-7 ">
