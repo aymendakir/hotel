@@ -7,7 +7,6 @@ export default function Afchamber() {
     <>
       <Navbar />
 
-      <Navinpu />
       <Fotter />
     </>
   );
