@@ -1,12 +1,6 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/hotel/static/css/main.e75763a7.css",
-    "main.js": "/hotel/static/js/main.5c62da17.js",
-    "static/js/787.a2acccb1.chunk.js": "/hotel/static/js/787.a2acccb1.chunk.js",
-    "static/media/product-04.jpg": "/hotel/static/media/product-04.44e7a43706ee08a877d5.jpg",
-=======
-    "main.css": "/hotel/static/css/main.57ee5f53.css",
+    "main.css": "/hotel/static/css/main.a8b3ea7c.css",
     "main.js": "/hotel/static/js/main.4e694964.js",
     "static/js/879.60b38b64.chunk.js": "/hotel/static/js/879.60b38b64.chunk.js",
     "static/js/23.8f97e675.chunk.js": "/hotel/static/js/23.8f97e675.chunk.js",
@@ -16,22 +10,11 @@
     "static/media/chambre3.jpg": "/hotel/static/media/chambre3.0ae972b6782e7f3d9551.jpg",
     "static/media/chambre2.jpg": "/hotel/static/media/chambre2.56da63fa76cf9ea9647f.jpg",
     "static/media/emggetemail.png": "/hotel/static/media/emggetemail.a2a85a0054b787e68079.png",
-    "static/media/product-03.jpg": "/hotel/static/media/product-03.49c8ee5abc94e78a4373.jpg",
->>>>>>> 06cc2b21882d408019a94db335f4c3bfb20d32a0
     "static/media/icone-marketing-magasin-ligne_24877-13843.jpg": "/hotel/static/media/icone-marketing-magasin-ligne_24877-13843.6b9428a090d67346c4ba.jpg",
     "static/media/logo.png": "/hotel/static/media/logo.092c4bab119e6f60ac60.png",
     "static/media/parking.png": "/hotel/static/media/parking.cb18612d41717d533cb0.png",
     "index.html": "/hotel/index.html",
-<<<<<<< HEAD
-    "main.e75763a7.css.map": "/hotel/static/css/main.e75763a7.css.map",
-    "main.5c62da17.js.map": "/hotel/static/js/main.5c62da17.js.map",
-    "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.e75763a7.css",
-    "static/js/main.5c62da17.js"
-=======
-    "main.57ee5f53.css.map": "/hotel/static/css/main.57ee5f53.css.map",
+    "main.a8b3ea7c.css.map": "/hotel/static/css/main.a8b3ea7c.css.map",
     "main.4e694964.js.map": "/hotel/static/js/main.4e694964.js.map",
     "879.60b38b64.chunk.js.map": "/hotel/static/js/879.60b38b64.chunk.js.map",
     "23.8f97e675.chunk.js.map": "/hotel/static/js/23.8f97e675.chunk.js.map",
@@ -39,8 +22,7 @@
     "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ee5f53.css",
+    "static/css/main.a8b3ea7c.css",
     "static/js/main.4e694964.js"
->>>>>>> 06cc2b21882d408019a94db335f4c3bfb20d32a0
   ]
 }
