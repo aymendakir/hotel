@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hotel/static/css/main.57ee5f53.css",
-    "main.js": "/hotel/static/js/main.4e694964.js",
+    "main.js": "/hotel/static/js/main.e49d0c43.js",
     "static/js/879.60b38b64.chunk.js": "/hotel/static/js/879.60b38b64.chunk.js",
     "static/js/23.8f97e675.chunk.js": "/hotel/static/js/23.8f97e675.chunk.js",
     "static/js/81.82d1df10.chunk.js": "/hotel/static/js/81.82d1df10.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/parking.png": "/hotel/static/media/parking.cb18612d41717d533cb0.png",
     "index.html": "/hotel/index.html",
     "main.57ee5f53.css.map": "/hotel/static/css/main.57ee5f53.css.map",
-    "main.4e694964.js.map": "/hotel/static/js/main.4e694964.js.map",
+    "main.e49d0c43.js.map": "/hotel/static/js/main.e49d0c43.js.map",
     "879.60b38b64.chunk.js.map": "/hotel/static/js/879.60b38b64.chunk.js.map",
     "23.8f97e675.chunk.js.map": "/hotel/static/js/23.8f97e675.chunk.js.map",
     "81.82d1df10.chunk.js.map": "/hotel/static/js/81.82d1df10.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.57ee5f53.css",
-    "static/js/main.4e694964.js"
+    "static/js/main.e49d0c43.js"
   ]
 }
