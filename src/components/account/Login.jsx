@@ -21,11 +21,7 @@ export default function Login() {
           </p>
 
           <div>
-            <form
-              className="my-5 w-[500px] ml-20"
-              action="www.facebook.com"
-              method="get"
-            >
+            <form className="my-5 w-[500px] ml-20" action="" method="post">
               <div className="flex items-center ">
                 <span className=" absolute ml-3 text-2xl  text-gray-500/90">
                   <MdOutlineMail />
