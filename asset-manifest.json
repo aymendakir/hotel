@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hotel/static/css/main.57ee5f53.css",
-    "main.js": "/hotel/static/js/main.e49d0c43.js",
+    "main.css": "/hotel/static/css/main.402562bc.css",
+    "main.js": "/hotel/static/js/main.ab74e854.js",
     "static/js/879.60b38b64.chunk.js": "/hotel/static/js/879.60b38b64.chunk.js",
     "static/js/23.8f97e675.chunk.js": "/hotel/static/js/23.8f97e675.chunk.js",
     "static/js/81.82d1df10.chunk.js": "/hotel/static/js/81.82d1df10.chunk.js",
@@ -11,19 +11,20 @@
     "static/media/chambre2.jpg": "/hotel/static/media/chambre2.56da63fa76cf9ea9647f.jpg",
     "static/media/emggetemail.png": "/hotel/static/media/emggetemail.a2a85a0054b787e68079.png",
     "static/media/product-03.jpg": "/hotel/static/media/product-03.49c8ee5abc94e78a4373.jpg",
+    "static/media/product-01.jpg": "/hotel/static/media/product-01.245e8b63e18fa6ea9ee0.jpg",
     "static/media/icone-marketing-magasin-ligne_24877-13843.jpg": "/hotel/static/media/icone-marketing-magasin-ligne_24877-13843.6b9428a090d67346c4ba.jpg",
     "static/media/logo.png": "/hotel/static/media/logo.092c4bab119e6f60ac60.png",
     "static/media/parking.png": "/hotel/static/media/parking.cb18612d41717d533cb0.png",
     "index.html": "/hotel/index.html",
-    "main.57ee5f53.css.map": "/hotel/static/css/main.57ee5f53.css.map",
-    "main.e49d0c43.js.map": "/hotel/static/js/main.e49d0c43.js.map",
+    "main.402562bc.css.map": "/hotel/static/css/main.402562bc.css.map",
+    "main.ab74e854.js.map": "/hotel/static/js/main.ab74e854.js.map",
     "879.60b38b64.chunk.js.map": "/hotel/static/js/879.60b38b64.chunk.js.map",
     "23.8f97e675.chunk.js.map": "/hotel/static/js/23.8f97e675.chunk.js.map",
     "81.82d1df10.chunk.js.map": "/hotel/static/js/81.82d1df10.chunk.js.map",
     "787.a2acccb1.chunk.js.map": "/hotel/static/js/787.a2acccb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ee5f53.css",
-    "static/js/main.e49d0c43.js"
+    "static/css/main.402562bc.css",
+    "static/js/main.ab74e854.js"
   ]
 }
