@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": " url('/./src/components/img/product-03.jpg')",
-
+        "login": " url('/./src/components/img/product-01.jpg')",
       },
     },
     color: {

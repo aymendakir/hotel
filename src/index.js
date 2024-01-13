@@ -6,6 +6,9 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Afchamber from "./components/Chamber_datea_aficher";
+import Contact_us from "./components/contactus/Contact_us";
+import Login from "./components/account/Login";
+import Signup from "./components/account/signup";
 
 const router = createHashRouter([
   {
@@ -19,6 +22,18 @@ const router = createHashRouter([
   {
     path: "/Cart",
     element: <Cart />,
+  },
+  {
+    path: "/Contact_us",
+    element: <Contact_us />,
+  },
+  {
+    path: "/Login",
+    element: <Login />,
+  },
+  {
+    path: "/creataccount",
+    element: <Signup />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
