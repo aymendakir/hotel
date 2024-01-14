@@ -3,8 +3,12 @@ import { MdOutlineMail } from "react-icons/md";
 import { Button } from "@material-tailwind/react";
 
 import { Link } from "react-router-dom";
+import { getValue } from "@testing-library/user-event/dist/utils";
 
 export default function Login() {
+  const form = document.getElementById("email");
+  console.log(form);
+
   return (
     <>
       <div className="flex font_home  ">
@@ -21,7 +25,12 @@ export default function Login() {
           </p>
 
           <div>
-            <form className="my-5 w-[500px] ml-20" action="/" method="post">
+            <form
+              className="my-5 w-[500px] ml-20"
+              //action=""
+              method="post"
+              id="logform"
+            >
               <div className="flex items-center ">
                 <span className=" absolute ml-3 text-2xl  text-gray-500/90">
                   <MdOutlineMail />
@@ -30,7 +39,7 @@ export default function Login() {
                   className=" p-5   px-[10%] w-[80%] border-2 border-gray-500/40 rounded-t-lg "
                   type="email"
                   name="email"
-                  id=""
+                  id="email"
                   placeholder="Email"
                   required
                   pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"

@@ -23,8 +23,6 @@ export default function Contact_us() {
             id="contactForm"
             name="contact
             name"
-            class="container w-75 text-center mx-auto my-
-            3"
           >
             <input
               className=" my-5 relative border-b-2  border-gray-400/80 p-3 placeholder:font-semibold placeholder:capitalize placeholder:text-gray-500     "
@@ -71,7 +69,7 @@ export default function Contact_us() {
               <span className="text-4xl mr-4">
                 <MdOutlineMail />
               </span>
-              email@email.com
+              aymendakr@yahoo.com
             </p>
             <p className="text-xl font-medium mb-5 flex ">
               <span className="text-4xl mr-4">
@@ -82,7 +80,7 @@ export default function Contact_us() {
             <p className="text-xl font-medium mb-5 flex">
               <span className="text-4xl mr-4">
                 <TbMapStar />
-              </span>{" "}
+              </span>
               hay erraha berrchid
             </p>
           </div>
